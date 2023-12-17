@@ -1,4 +1,55 @@
 .App {
-  font-family: sans-serif;
   text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.calculator-display {
+  font-size: 30px; /* Adjust font size as needed */
+  width: 300px; /* Adjust width as needed */
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #61dafb;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.button-row {
+  display: flex;
+}
+
+.outlined-button {
+  flex: 1;
+  margin: 5px;
+  padding: 15px; /* Adjust padding to change button size */
+  font-size: 20px; /* Adjust font size to change button text size */
+}
+
+.toggle-switch {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.toggle-switch label {
+  margin-right: 5px;
+}
+
+.toggle-switch input {
+  margin-right: 5px;
 }
